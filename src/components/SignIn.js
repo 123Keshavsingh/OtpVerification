@@ -21,7 +21,7 @@ const SignIn = ({ loginSubmit, otpSubmit, viewOtpForm }) => {
     history.push("/signin");
     }
     else{
-      alert("PLEASE ENTER 10 DIGITS MOBILE NUMBER");
+      alert("PLEASE ENTER TEN DIGITS MOBILE NUMBER");
     }
   }
   

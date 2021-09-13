@@ -20,7 +20,7 @@ const OtpScreen = ({ }) => {
 
         }
         else{
-            alert("You have entered wrong OTP");
+            alert("YOU HAVE ENTERED WRONG OTP");
         }
     }
   return (
