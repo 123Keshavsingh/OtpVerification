@@ -37,11 +37,13 @@ const SignIn = ({ loginSubmit, otpSubmit, viewOtpForm }) => {
               <label>Phone Number</label>
             
               <input
+              
                type="number"
                placeholder="number"
                autoComplete="false"
+               value={Num}
                onChange={handlesubmit}
-               maxLength = "10"
+               
 
 
               />

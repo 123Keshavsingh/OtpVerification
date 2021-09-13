@@ -27,7 +27,7 @@ const OtpScreen = ({ }) => {
     <div className="wrapper">
       <h1 style={{fontWeight:"400"}} className="main-heading">Please verify mobile number</h1>
       <p className="sub-text">An otp is sent to your mobile number</p>
-      <Link>Change phone Number</Link>
+      
       
         <div className="form-wrapper">
           <form id="loginForm">
